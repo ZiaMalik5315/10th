@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    color: black;
+    background-image: url("file:///C:/Users/HP/Desktop/New%20folder%20(2)/about%20us.jpg"); 
+    object-fit:contain;  
+}
+
+#container ul{
+	list-style: none;
+} 
+#container ul li {
+
+	background-color: orange;
+	width: 250px;
+	border: 1px solid white;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	color: black;
+	font-size: 20px;
+	font-family: arial;
+
+}
+#container ul li:hover{
+	background-color: yellow;
+}
+
+#container ul li ul {
+    display: none;
+}
+
+#container ul li:hover > ul {
+	display: block;
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+h1 {
+	font-size:45px; 
+	padding: 20px;
+}
+#container {
+
+	padding-left:28% ;
+}
